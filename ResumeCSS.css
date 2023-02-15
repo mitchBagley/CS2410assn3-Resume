@@ -11,7 +11,13 @@ h1
 
 body
 {
-    background-color: aquamarine;
+    background-color: whitesmoke;
+}
+
+.box
+{
+    display: flex;
+    align-items: center;
 }
 
 .box1
@@ -22,9 +28,11 @@ body
     padding: 10px;
     margin: 40px;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
+
 .box2
 {
     width: 150px;
@@ -33,10 +41,10 @@ body
     padding: 10px;
     margin: 40px;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 }
+
 .box3
 {
     width: 150px;
@@ -45,9 +53,17 @@ body
     padding: 10px;
     margin: 40px;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    
 }
+
+.last-boxes
+{
+    display: flex;
+    align-items: center;
+}
+
 .box4
 {
     width: 150px;
@@ -56,9 +72,10 @@ body
     padding: 10px;
     margin: 40px;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
 .box5
 {
     width: 150px;
@@ -67,9 +84,10 @@ body
     padding: 10px;
     margin: 40px;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
 .box6
 {
     width: 150px;
@@ -78,6 +96,6 @@ body
     padding: 10px;
     margin: 40px;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    flex-direction: column;
+    align-items: center;
 }
